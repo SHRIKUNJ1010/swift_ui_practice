@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B5A563542D39333800E56DFF /* LabVidoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5A563532D39333800E56DFF /* LabVidoApp.swift */; };
+		B5A563562D39333800E56DFF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5A563552D39333800E56DFF /* ContentView.swift */; };
+		B5A563582D39333900E56DFF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5A563572D39333900E56DFF /* Assets.xcassets */; };
+		B5A5635B2D39333900E56DFF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5A5635A2D39333900E56DFF /* Preview Assets.xcassets */; };
+		B5A563652D39333900E56DFF /* LabVidoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5A563642D39333900E56DFF /* LabVidoTests.swift */; };
+		B5A5636F2D39333900E56DFF /* LabVidoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5A5636E2D39333900E56DFF /* LabVidoUITests.swift */; };
+		B5A563712D39333900E56DFF /* LabVidoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5A563702D39333900E56DFF /* LabVidoUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B5A563612D39333900E56DFF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B5A563482D39333800E56DFF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B5A5634F2D39333800E56DFF;
+			remoteInfo = LabVido;
+		};
+		B5A5636B2D39333900E56DFF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B5A563482D39333800E56DFF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B5A5634F2D39333800E56DFF;
+			remoteInfo = LabVido;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B5A563502D39333800E56DFF /* LabVido.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LabVido.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5A563532D39333800E56DFF /* LabVidoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabVidoApp.swift; sourceTree = "<group>"; };
+		B5A563552D39333800E56DFF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B5A563572D39333900E56DFF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B5A5635A2D39333900E56DFF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B5A563602D39333900E56DFF /* LabVidoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LabVidoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5A563642D39333900E56DFF /* LabVidoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabVidoTests.swift; sourceTree = "<group>"; };
+		B5A5636A2D39333900E56DFF /* LabVidoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LabVidoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5A5636E2D39333900E56DFF /* LabVidoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabVidoUITests.swift; sourceTree = "<group>"; };
+		B5A563702D39333900E56DFF /* LabVidoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabVidoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B5A5634D2D39333800E56DFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5A5635D2D39333900E56DFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5A563672D39333900E56DFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B5A563472D39333800E56DFF = {
+			isa = PBXGroup;
+			children = (
+				B5A563522D39333800E56DFF /* LabVido */,
+				B5A563632D39333900E56DFF /* LabVidoTests */,
+				B5A5636D2D39333900E56DFF /* LabVidoUITests */,
+				B5A563512D39333800E56DFF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B5A563512D39333800E56DFF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B5A563502D39333800E56DFF /* LabVido.app */,
+				B5A563602D39333900E56DFF /* LabVidoTests.xctest */,
+				B5A5636A2D39333900E56DFF /* LabVidoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B5A563522D39333800E56DFF /* LabVido */ = {
+			isa = PBXGroup;
+			children = (
+				B5A563532D39333800E56DFF /* LabVidoApp.swift */,
+				B5A563552D39333800E56DFF /* ContentView.swift */,
+				B5A563572D39333900E56DFF /* Assets.xcassets */,
+				B5A563592D39333900E56DFF /* Preview Content */,
+			);
+			path = LabVido;
+			sourceTree = "<group>";
+		};
+		B5A563592D39333900E56DFF /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				B5A5635A2D39333900E56DFF /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B5A563632D39333900E56DFF /* LabVidoTests */ = {
+			isa = PBXGroup;
+			children = (
+				B5A563642D39333900E56DFF /* LabVidoTests.swift */,
+			);
+			path = LabVidoTests;
+			sourceTree = "<group>";
+		};
+		B5A5636D2D39333900E56DFF /* LabVidoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B5A5636E2D39333900E56DFF /* LabVidoUITests.swift */,
+				B5A563702D39333900E56DFF /* LabVidoUITestsLaunchTests.swift */,
+			);
+			path = LabVidoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B5A5634F2D39333800E56DFF /* LabVido */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5A563742D39333900E56DFF /* Build configuration list for PBXNativeTarget "LabVido" */;
+			buildPhases = (
+				B5A5634C2D39333800E56DFF /* Sources */,
+				B5A5634D2D39333800E56DFF /* Frameworks */,
+				B5A5634E2D39333800E56DFF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LabVido;
+			productName = LabVido;
+			productReference = B5A563502D39333800E56DFF /* LabVido.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B5A5635F2D39333900E56DFF /* LabVidoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5A563772D39333900E56DFF /* Build configuration list for PBXNativeTarget "LabVidoTests" */;
+			buildPhases = (
+				B5A5635C2D39333900E56DFF /* Sources */,
+				B5A5635D2D39333900E56DFF /* Frameworks */,
+				B5A5635E2D39333900E56DFF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B5A563622D39333900E56DFF /* PBXTargetDependency */,
+			);
+			name = LabVidoTests;
+			productName = LabVidoTests;
+			productReference = B5A563602D39333900E56DFF /* LabVidoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B5A563692D39333900E56DFF /* LabVidoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5A5637A2D39333900E56DFF /* Build configuration list for PBXNativeTarget "LabVidoUITests" */;
+			buildPhases = (
+				B5A563662D39333900E56DFF /* Sources */,
+				B5A563672D39333900E56DFF /* Frameworks */,
+				B5A563682D39333900E56DFF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B5A5636C2D39333900E56DFF /* PBXTargetDependency */,
+			);
+			name = LabVidoUITests;
+			productName = LabVidoUITests;
+			productReference = B5A5636A2D39333900E56DFF /* LabVidoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B5A563482D39333800E56DFF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					B5A5634F2D39333800E56DFF = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					B5A5635F2D39333900E56DFF = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = B5A5634F2D39333800E56DFF;
+					};
+					B5A563692D39333900E56DFF = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = B5A5634F2D39333800E56DFF;
+					};
+				};
+			};
+			buildConfigurationList = B5A5634B2D39333800E56DFF /* Build configuration list for PBXProject "LabVido" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B5A563472D39333800E56DFF;
+			productRefGroup = B5A563512D39333800E56DFF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B5A5634F2D39333800E56DFF /* LabVido */,
+				B5A5635F2D39333900E56DFF /* LabVidoTests */,
+				B5A563692D39333900E56DFF /* LabVidoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B5A5634E2D39333800E56DFF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5A5635B2D39333900E56DFF /* Preview Assets.xcassets in Resources */,
+				B5A563582D39333900E56DFF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5A5635E2D39333900E56DFF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5A563682D39333900E56DFF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B5A5634C2D39333800E56DFF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5A563562D39333800E56DFF /* ContentView.swift in Sources */,
+				B5A563542D39333800E56DFF /* LabVidoApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5A5635C2D39333900E56DFF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5A563652D39333900E56DFF /* LabVidoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5A563662D39333900E56DFF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5A563712D39333900E56DFF /* LabVidoUITestsLaunchTests.swift in Sources */,
+				B5A5636F2D39333900E56DFF /* LabVidoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B5A563622D39333900E56DFF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B5A5634F2D39333800E56DFF /* LabVido */;
+			targetProxy = B5A563612D39333900E56DFF /* PBXContainerItemProxy */;
+		};
+		B5A5636C2D39333900E56DFF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B5A5634F2D39333800E56DFF /* LabVido */;
+			targetProxy = B5A5636B2D39333900E56DFF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		B5A563722D39333900E56DFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B5A563732D39333900E56DFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B5A563752D39333900E56DFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"LabVido/Preview Content\"";
+				DEVELOPMENT_TEAM = VNH2RAHM3D;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lab.LabVido;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B5A563762D39333900E56DFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"LabVido/Preview Content\"";
+				DEVELOPMENT_TEAM = VNH2RAHM3D;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lab.LabVido;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B5A563782D39333900E56DFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VNH2RAHM3D;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lab.LabVidoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LabVido.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LabVido";
+			};
+			name = Debug;
+		};
+		B5A563792D39333900E56DFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VNH2RAHM3D;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lab.LabVidoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LabVido.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LabVido";
+			};
+			name = Release;
+		};
+		B5A5637B2D39333900E56DFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VNH2RAHM3D;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lab.LabVidoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LabVido;
+			};
+			name = Debug;
+		};
+		B5A5637C2D39333900E56DFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VNH2RAHM3D;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lab.LabVidoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LabVido;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B5A5634B2D39333800E56DFF /* Build configuration list for PBXProject "LabVido" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5A563722D39333900E56DFF /* Debug */,
+				B5A563732D39333900E56DFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5A563742D39333900E56DFF /* Build configuration list for PBXNativeTarget "LabVido" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5A563752D39333900E56DFF /* Debug */,
+				B5A563762D39333900E56DFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5A563772D39333900E56DFF /* Build configuration list for PBXNativeTarget "LabVidoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5A563782D39333900E56DFF /* Debug */,
+				B5A563792D39333900E56DFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5A5637A2D39333900E56DFF /* Build configuration list for PBXNativeTarget "LabVidoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5A5637B2D39333900E56DFF /* Debug */,
+				B5A5637C2D39333900E56DFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B5A563482D39333800E56DFF /* Project object */;
+}
