@@ -8,19 +8,37 @@
 import SwiftUI
 
 struct LandMarkDetailView: View {
+    @Environment(ModelData.self) var modelData
+    var landmark: Landmark
+    
+    var landmarkIndex: Int {
+        modelData.landmarks.firstIndex(where: { $0.id == landmark.id})!
+    }
+    
     var body: some View {
-        VStack {
-            MapView()
+        @Bindable var modelData = modelData
+        
+        ScrollView {
+            MapView(coordinate: landmark.locationCoordinate)
                 .frame(height:300)
-            CircleImage()
-                .offset(y: -130)
-                .padding(.bottom,-130)
-            TextView()
+            CircleImage(image: landmark.image)
+                .offset(y: -125)
+                .padding(.bottom,-125)
+            TextView(
+                name: landmark.name,
+                park: landmark.park,
+                state: landmark.state,
+                description: landmark.description,
+                isFavorite: $modelData.landmarks[landmarkIndex].isFavorite
+                )
             Spacer()
         }
+        .navigationTitle(landmark.name)
+        .navigationBarTitleDisplayMode(.inline)
     }
 }
 
 #Preview {
-    LandMarkDetailView()
+    LandMarkDetailView(landmark: ModelData().landmarks[0])
+        .environment(ModelData())
 }

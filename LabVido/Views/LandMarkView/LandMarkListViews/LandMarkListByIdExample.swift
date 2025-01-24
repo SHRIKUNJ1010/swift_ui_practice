@@ -9,8 +9,8 @@ import SwiftUI
 
 struct LandMarkListByIdExample: View {
     var body: some View {
-        List(landmarks, id: \.id) {
-            landmark in LandmarkRowView(landmark: landmark)
+        List(landmarksWithoutObservable, id: \.id) {
+            landmark in LandMarkRowView(landmark: landmark)
         }
     }
 }

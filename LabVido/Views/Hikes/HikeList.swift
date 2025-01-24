@@ -8,11 +8,16 @@
 import SwiftUI
 
 struct HikeList: View {
+    @Environment(ModelData.self) var modelData
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        List(modelData.hikes) {
+            hike in HikeView(hike: hike)
+        }
     }
 }
 
 #Preview {
     HikeList()
+        .environment(ModelData())
 }

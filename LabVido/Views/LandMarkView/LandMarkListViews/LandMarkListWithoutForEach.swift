@@ -9,14 +9,13 @@ import SwiftUI
 
 struct LandMarkListWithForEach: View {
     var body: some View {
-        List {
-            ForEach(landmarks) {
+        List(landmarksWithoutObservable) {
                 landmark in NavigationLink{
                     LandMarkDetailView(landmark: landmark)
                 } label: {
-                    LandmarkRowView(landmark: landmark)
+                    LandMarkRowView(landmark: landmark)
                 }
-            }
+            
         }
     }
 }

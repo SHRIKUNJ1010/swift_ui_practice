@@ -8,15 +8,26 @@
 import SwiftUI
 
 struct TextView: View {
+    @Environment(ModelData.self) var modelData
+    var name: String
+    var park: String
+    var state: String
+    var description: String
+    @Binding var isFavorite: Bool
+    
     var body: some View {
+    
         VStack(alignment: .leading) {
-            Text("Turtle Rock")
-                .font(.title)
+            HStack {
+                Text(name)
+                    .font(.title)
+                FavoriteButton(isSet: $isFavorite)
+            }
             HStack{
-                Text("Joshua Tree Natinal Park")
+                Text(park)
                     .font(.subheadline)
                 Spacer()
-                Text("California")
+                Text(state)
                     .font(.subheadline)
             }
             .font(.subheadline)
@@ -24,14 +35,21 @@ struct TextView: View {
             
             Divider()
             
-            Text("About Turtle Rock")
+            Text("About \(name)")
                 .font(.title2)
-            Text("Description text goes here.")
+            Text(description)
             
         }.padding()
     }
 }
 
 #Preview {
-    TextView()
+    TextView(
+        name: landmarksWithoutObservable[0].name,
+        park: landmarksWithoutObservable[0].park,
+        state: landmarksWithoutObservable[0].state,
+        description: landmarksWithoutObservable[0].description,
+        isFavorite: .constant(true)
+    )
+    .environment(ModelData())
 }
